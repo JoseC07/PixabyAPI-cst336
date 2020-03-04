@@ -1,0 +1,26 @@
+h1 {
+    text-align: center;
+}
+body {
+    background-color:white;
+}
+
+.answer, .result{
+    text-align: center;
+}
+
+.row {
+    
+    margin-right: 300px;
+    margin-left: 300px;
+    background-color: white;
+   
+    display: flex;
+    justify-content: center;
+}
+  
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+

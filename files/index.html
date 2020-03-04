@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pixababy Api</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+		<link href="css/styles.css" rel="stylesheet" type="text/css" />
+    </head>
+
+    <body>
+        <header>
+            <h1>Pixababy Img Search</h1>
+        </header>
+
+        <div class ="answer">
+			<label for = "guessField" class ="keyWord">KeyWord</label>
+            <input type = "text" id = "guessField" class ="guessField">
+            
+            <br>
+            <label for = "dropDown" class ="Orientation">Orientation:</label>
+            <select id = "dropDown" name = "orientation">
+                <option value = "horizontal">Horizontal</option>
+                <option value = "vertical">Vertical</option>
+            </select>
+            
+            <input type="submit" value="Search" class = "Submit">
+        </div>
+        
+		</br></br>
+
+        <div class = "row" >
+
+            <div class = "col-sm-10">
+            <img id = "img0" src= "" alt="choice1" style="flex:100%;">
+            </div>
+
+            <div class = "col-sm-10">
+            <img id = "img1" src= "" alt="choice2" style="flex:100%;">
+            </div>
+
+            <div class = "col-sm-10">
+            <img id = "img2" src= "" alt="choice3" style="flex:100%;">
+            </div>
+
+            <div class = "col-sm-10">
+            <img id = "img3" src= "" alt="choice4" style="flex:100%;">
+            </div>
+
+        </div>
+
+		
+        <script SRC = "js/functions.js"></script>
+    </body>
+</html>
